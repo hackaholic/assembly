@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "masmtest", "masm\masm.vcxproj", "{1B85DC36-D74F-47C9-91D4-C25D62713E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "irvine", "irvine", "{50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch03", "ch03", "{E140965D-45AA-4E02-A595-34BD19DD63BB}"
+	ProjectSection(SolutionItems) = preProject
+		masm\addTwo.asm = masm\addTwo.asm
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Debug|x64.ActiveCfg = Debug|x64
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Debug|x64.Build.0 = Debug|x64
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Debug|x86.Build.0 = Debug|Win32
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Release|x64.ActiveCfg = Release|x64
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Release|x64.Build.0 = Release|x64
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Release|x86.ActiveCfg = Release|Win32
+		{1B85DC36-D74F-47C9-91D4-C25D62713E49}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E140965D-45AA-4E02-A595-34BD19DD63BB} = {50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11F3BD76-7200-4E8B-8222-F8CA7D9EE4D0}
+	EndGlobalSection
+EndGlobal
