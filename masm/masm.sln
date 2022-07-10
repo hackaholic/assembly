@@ -10,7 +10,24 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch03", "ch03", "{E140965D-45AA-4E02-A595-34BD19DD63BB}"
 	ProjectSection(SolutionItems) = preProject
 		masm\addTwo.asm = masm\addTwo.asm
+		masm\dataDeninition.asm = masm\dataDeninition.asm
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch04", "ch04", "{704EFD9A-CDA7-4971-A546-4905B08D3FD4}"
+	ProjectSection(SolutionItems) = preProject
+		masm\copyString.asm = masm\copyString.asm
+		masm\cpuEflags.asm = masm\cpuEflags.asm
+		masm\dataOperators.asm = masm\dataOperators.asm
+		masm\signExtention.asm = masm\signExtention.asm
+		masm\sumAarray.asm = masm\sumAarray.asm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch05", "ch05", "{01DF67D3-2773-412E-9A33-CFA07EDBBEB5}"
+	ProjectSection(SolutionItems) = preProject
+		masm\strReverse.asm = masm\strReverse.asm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch06", "ch06", "{F7F24B30-6D3C-40B7-9E0B-F0339F013046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +51,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E140965D-45AA-4E02-A595-34BD19DD63BB} = {50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}
+		{704EFD9A-CDA7-4971-A546-4905B08D3FD4} = {50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}
+		{01DF67D3-2773-412E-9A33-CFA07EDBBEB5} = {50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}
+		{F7F24B30-6D3C-40B7-9E0B-F0339F013046} = {50C88DB0-4AFF-4EBD-A71E-4AB38A267A17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11F3BD76-7200-4E8B-8222-F8CA7D9EE4D0}
