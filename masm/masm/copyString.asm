@@ -8,7 +8,7 @@ ExitProcess PROTO,dwExitCode:DWORD
 
 .data
 sourceStrB BYTE "Hello World",0
-targetStrB BYTE  SIZEOF sourceStr DUP(?)
+targetStrB BYTE  SIZEOF sourceStrB DUP(?)
 
 .code
 main PROC
