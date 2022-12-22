@@ -1,0 +1,17 @@
+compiling nasm
+$ nasm -f elf -o first.o first.s
+$ ld -m elf_i386 -g first.o
+
+
+
+
+gdb debug
+gdb ./a.out
+layout asm
+break _start
+run
+stepi        ; step to next instruction
+set disassembly-flavor intel
+info registers ;  display all the registers
+info registers eax ; display only eax
+
